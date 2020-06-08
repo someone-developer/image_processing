@@ -56,6 +56,7 @@ namespace Demo1
             DrawDetact(detectItem);
             MessageBox.Show("Done");
         }
+
         private Brush GetBrush(double confidence)
         {
             if (confidence > 0.5)
